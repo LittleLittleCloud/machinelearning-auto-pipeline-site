@@ -1,0 +1,1565 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/site",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.AutoPipelineCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.AutoPipelineCatalog.html",
+          "hash": "xu9P7CrkDjWlqMao7YY7WA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.AveragedPerceptronBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.AveragedPerceptronBinaryTrainerSweepableOptions.html",
+          "hash": "2ezBa7VkNafeElMMplshnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.EstimatorChainExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.EstimatorChainExtension.html",
+          "hash": "EcKOuzqAspb+7qH9T3J3OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.EvaluateFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.EvaluateFunction.html",
+          "hash": "vNEHkv+WWKc7/1wcu5ViEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.Experiment.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.Experiment.Option.html",
+          "hash": "Yb1vUq2b9h5a9uEK3+9nhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.Experiment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.Experiment.html",
+          "hash": "UiadbZ0kTSrGIuEdXgCT5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.ExperimentResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.ExperimentResult.html",
+          "hash": "A6RBkjd1mV4Tcmw04CsFgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.FastForestBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.FastForestBinaryTrainerSweepableOptions.html",
+          "hash": "Dqw2FE3QjtjBAHDO3+UeSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.FastForestRegressionTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.FastForestRegressionTrainerSweepableOptions.html",
+          "hash": "+8zSBDfFP65BqJYqtRAhyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.FastTreeBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.FastTreeBinaryTrainerSweepableOptions.html",
+          "hash": "m+GWGKC4duBG1rVtQZSxgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.FastTreeRegressionTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.FastTreeRegressionTrainerSweepableOptions.html",
+          "hash": "uZR1zK05Kpyq504rH92IOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.FastTreeTweedieTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.FastTreeTweedieTrainerSweepableOptions.html",
+          "hash": "bMiRU2uPfMhRtX2wjxSpUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.GamBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.GamBinaryTrainerSweepableOptions.html",
+          "hash": "YN3uE41w5tT8ArKkwREZwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.GamRegressionTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.GamRegressionTrainerSweepableOptions.html",
+          "hash": "aHEpOyZBXgcNbq2JZck0Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.ISweepableEstimator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.ISweepableEstimator-2.html",
+          "hash": "11tfxPv+J46Rv+pfoBpPTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.ISweepableEstimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.ISweepableEstimator.html",
+          "hash": "2RvGfOs+Ae6r5Mt3OMj1pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.IterationInfo.Metric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.IterationInfo.Metric.html",
+          "hash": "Pb58JW/XV8JNbVi8/eiuCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.IterationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.IterationInfo.html",
+          "hash": "zLsTo2JJYFIja6X/67ToIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LbfgsLogisticRegressionBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LbfgsLogisticRegressionBinaryTrainerSweepableOptions.html",
+          "hash": "5wKIzsdmWF8LYEZeDM/W4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LbfgsMaximumEntropyMulticlassTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LbfgsMaximumEntropyMulticlassTrainerSweepableOptions.html",
+          "hash": "udMrOgqfJzWP06W3SRd7gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LbfgsPoissonRegressionTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LbfgsPoissonRegressionTrainerSweepableOptions.html",
+          "hash": "CZARY4nIjtgB27F4ADmgtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LdSvmBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LdSvmBinaryTrainerSweepableOptions.html",
+          "hash": "X8wp4dPz7T5uxez8h1sWSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LightGbmBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LightGbmBinaryTrainerSweepableOptions.html",
+          "hash": "bW7Vd2uMNI644jBCF9tnKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LightGbmMulticlassTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LightGbmMulticlassTrainerSweepableOptions.html",
+          "hash": "fLjtwU3cWjw6yLjeuR4Z2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LightGbmRegressionTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LightGbmRegressionTrainerSweepableOptions.html",
+          "hash": "nkHuKqbBSZmFtIluITbRpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.LinearSvmBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.LinearSvmBinaryTrainerSweepableOptions.html",
+          "hash": "xLzOGOtekMFK4To121OWaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.MLContextExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.MLContextExtension.html",
+          "hash": "qJgm2xdItCUKdopxE9YUug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.OnlineGradientDescentTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.OnlineGradientDescentTrainerSweepableOptions.html",
+          "hash": "H1BU8cKxelC5SOcEDGBi1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.Parameter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.Parameter-1.html",
+          "hash": "tku3ajiUZ5k/PeS3lFatqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.ParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.ParameterAttribute.html",
+          "hash": "jTuWaklOWctvUx9caMMnbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.ParameterFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.ParameterFactory.html",
+          "hash": "6WmA2QFP8xlEH0n3JSsHNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SdcaLogisticRegressionBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SdcaLogisticRegressionBinaryTrainerSweepableOptions.html",
+          "hash": "v2u7nmBpiQc2ACmo1+i/oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SdcaMaximumEntropyMulticlassTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SdcaMaximumEntropyMulticlassTrainerSweepableOptions.html",
+          "hash": "EjqGYaYgSzLLV1tZ0YOC6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SdcaNonCalibratedBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SdcaNonCalibratedBinaryTrainerSweepableOptions.html",
+          "hash": "6nx52iK2yZRJeFDn1ny/Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SdcaNonCalibratedMulticlassTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SdcaNonCalibratedMulticlassTrainerSweepableOptions.html",
+          "hash": "e9psnkQN7xfykTmF1ySrDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SdcaRegressionTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SdcaRegressionTrainerSweepableOptions.html",
+          "hash": "8ft1mjMZPjvcn3QJe3mmCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SgdCalibratedBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SgdCalibratedBinaryTrainerSweepableOptions.html",
+          "hash": "A1y4JNmtWk7qOU5iZOPH5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SgdNonCalibratedBinaryTrainerSweepableOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SgdNonCalibratedBinaryTrainerSweepableOptions.html",
+          "hash": "pZNMrRBOE6f0oibU24x7YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SingleEstimatorSweepablePipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SingleEstimatorSweepablePipeline.html",
+          "hash": "3EpHWkVbiMKzDsOJwhRIsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableBinaryClassificationTrainerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableBinaryClassificationTrainerExtension.html",
+          "hash": "S2JffogRRfhpM7PtahEP4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableBinaryClassificationTrainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableBinaryClassificationTrainers.html",
+          "hash": "6Qfbu2isUkLElvR95ZEoeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableEstimator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableEstimator-1.html",
+          "hash": "tZFGbpuoaeyzJYH2yD5SqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableEstimator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableEstimator-2.html",
+          "hash": "mD9ZwgypkpNw+FPUMmKK9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableEstimatorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableEstimatorBase.html",
+          "hash": "SUuXwOcIkmgLFOk8dQHIQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableMultiClassificationTrainerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableMultiClassificationTrainerExtension.html",
+          "hash": "FGA0C9Jm42EGUZMOZK0oJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableMultiClassificationTrainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableMultiClassificationTrainers.html",
+          "hash": "x+mJoO7/EBoqiSXqKHVDvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableOption-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableOption-1.html",
+          "hash": "MttXY9rTZL99BoZtRWDWgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepablePipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepablePipeline.html",
+          "hash": "OM8EtTiRZyyaMAHJt4bkxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableRegressionTrainers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableRegressionTrainers.html",
+          "hash": "sjss9Cmk6UxNqfI/IR7YeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.SweepableRegressionTrainersExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.SweepableRegressionTrainersExtension.html",
+          "hash": "JE00NZZb5DWLdYtPyQjYnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.AutoPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.AutoPipeline.html",
+          "hash": "0pJHpQzyowQNuCDA8eYmhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.Estimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.Estimator.html",
+          "hash": "jRG8XgrTIIj7+LjNXhVuvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.EstimatorChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.EstimatorChain.html",
+          "hash": "GIKY81vQb5HHQU0rOcXi9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.EstimatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.EstimatorType.html",
+          "hash": "QqUXBYXUVBVAO+EjZVC1LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.ICodeGenNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.ICodeGenNode.html",
+          "hash": "t04mfFWGCUkllccYigaesg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.Paramater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.Paramater.html",
+          "hash": "JeGLQP3YsIYUHOU1TZQuiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.ParamaterList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.ParamaterList.html",
+          "hash": "w7O03+7qgNUpvdigwZjvbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.ParamaterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.ParamaterValue.html",
+          "hash": "gJrL0QgmCYdQ+SpI4YPi1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.ParamaterValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.ParamaterValueType.html",
+          "hash": "zId4p8QwZHtSn98eTBWarA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.CodeGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.CodeGenerator.html",
+          "hash": "dJ9j2sBtoC7fDH6c7/WuHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.AutoMLExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.AutoMLExtension.html",
+          "hash": "txerUXA5IYfDiYvyzPqZpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.Column.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.Column.html",
+          "hash": "EjfTClZNU7ASV65AL04SiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.ColumnPurpose.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.ColumnPurpose.html",
+          "hash": "seX3hS5aI7xedJJHFBpymQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.ColumnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.ColumnType.html",
+          "hash": "nwTL9dionYAyCYtbeBW+pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.Contract.SingleEstimatorSweepablePipelineDataContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.Contract.SingleEstimatorSweepablePipelineDataContract.html",
+          "hash": "+Sq8xIgvcwHJ7UeRWNvVEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.Contract.SweepableEstimatorDataContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.Contract.SweepableEstimatorDataContract.html",
+          "hash": "BZhlmUOSdFa2uGB9G0r1Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.Contract.SweepablePipelineDataContract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.Contract.SweepablePipelineDataContract.html",
+          "hash": "4h/um0mh2lBLnpI8AhkkAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.Contract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.Contract.html",
+          "hash": "W5x3Yp+WMw7SvwnXSpSHiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.PipelineBuilder.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.PipelineBuilder.Option.html",
+          "hash": "CfrD7o0m4t/11xFLSxOG2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.PipelineBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.PipelineBuilder.html",
+          "hash": "YI7LP1b76Ts+SIEmVelqMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.TaskType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.TaskType.html",
+          "hash": "f4r+LwFhjvVK7bl9M0LlvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Expert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Expert.html",
+          "hash": "TqUp+6X4hrr3poyPqZq3Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.DiscreteValueGenerator-1.Option-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.DiscreteValueGenerator-1.Option-1.html",
+          "hash": "F26JgTp/G6e9+LGZPmGr+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.DiscreteValueGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.DiscreteValueGenerator-1.html",
+          "hash": "MszSxTmRYNPNAICSQMxkdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.DoubleParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.DoubleParameterValue.html",
+          "hash": "jZTSqVPrwCRaMXmXDmqDEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.DoubleValueGenerator.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.DoubleValueGenerator.Option.html",
+          "hash": "gGOPes980eHkxrQtIRBL6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.DoubleValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.DoubleValueGenerator.html",
+          "hash": "+00vl3A0k+9yQKQ5UVRxlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.FloatParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.FloatParameterValue.html",
+          "hash": "MsJJNyGIcKgM79Ez4GJv9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.FloatValueGenerator.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.FloatValueGenerator.Option.html",
+          "hash": "pkZ/Z+9Bz0lQfH2keqX6+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.FloatValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.FloatValueGenerator.html",
+          "hash": "KcQLuJfKhykEgaVlLCAZpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.GaussProcessRegressor.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.GaussProcessRegressor.Options.html",
+          "hash": "QgoVfHPkI58b7z5qea0mZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.GaussProcessRegressor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.GaussProcessRegressor.html",
+          "hash": "RKPEh2B722fUQyzePnv9xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.GaussProcessSweeper.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.GaussProcessSweeper.Option.html",
+          "hash": "1l66WvUGUF8JUuHeOLtvAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.GaussProcessSweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.GaussProcessSweeper.html",
+          "hash": "PV+Gwluydx4gbFp3WVtvDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.GridSearchSweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.GridSearchSweeper.html",
+          "hash": "XQOn11+9DQQpiXb2HB9WsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IDiscreteParameterValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IDiscreteParameterValue-1.html",
+          "hash": "X5u8jFtjHZxiF6yaX4MzBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IDiscreteParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IDiscreteParameterValue.html",
+          "hash": "W2KVibbj6us+Bv+cBdUB/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IDiscreteValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IDiscreteValueGenerator.html",
+          "hash": "mnQsV7s8GMd3d0uPnX65Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.INumericValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.INumericValueGenerator.html",
+          "hash": "j2CtC9bg6FY91JGls7PxfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IParameterValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IParameterValue-1.html",
+          "hash": "XjRHbfzvDYkD0qsYq6DaQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IParameterValue.html",
+          "hash": "bSkrR/UwWONePFp34SUzdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IRunResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IRunResult-1.html",
+          "hash": "9glJ1hQI0y0C0wgWPG6C3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IRunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IRunResult.html",
+          "hash": "w0ArVKMMuF9iGf1ZiXko6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.ISweepable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.ISweepable.html",
+          "hash": "4/lZHbkBlR1OuMMfwSd7DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.ISweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.ISweeper.html",
+          "hash": "t/unjNCs2bVxGQYXARRTEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.IValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.IValueGenerator.html",
+          "hash": "oD7JkauAKmwNQoHwcZTCjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.Int32ParamaterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.Int32ParamaterValue.html",
+          "hash": "ZHtsmh71NAcfmUow0vSvEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.Int32ValueGenerator.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.Int32ValueGenerator.Option.html",
+          "hash": "EVaKAzIEH+syN3a7U50Btg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.Int32ValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.Int32ValueGenerator.html",
+          "hash": "AZI3MzkgdIVqYdkwEvk/6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.LongParameterValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.LongParameterValue.html",
+          "hash": "TzNpeEDpHqYJgs3TzyzLBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.LongValueGenerator.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.LongValueGenerator.Option.html",
+          "hash": "cAojOlsiTtxTzCQIwxjI4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.LongValueGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.LongValueGenerator.html",
+          "hash": "iJCjVX4ETczF4VXz8wgf1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.NNISweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.NNISweeper.html",
+          "hash": "L3/O1rKmp5LvXhM8BNjJzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.NumericValueGeneratorOptionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.NumericValueGeneratorOptionBase.html",
+          "hash": "IEVRzC8pXR76+T0LVDB85g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.ObjectParameterValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.ObjectParameterValue-1.html",
+          "hash": "gEjOohAnPNLBSHpLwxqTiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.Parameters.html",
+          "hash": "kcmhuzvCaNrpycotOE3Fvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.RandomGridSweeper.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.RandomGridSweeper.Option.html",
+          "hash": "xCL0Kbd/OsweIfKTKU6RPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.RandomGridSweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.RandomGridSweeper.html",
+          "hash": "eQnvb+QCgguXid68ll6kZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.RunMetric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.RunMetric.html",
+          "hash": "1Vxi6UpP4K8PGgTIT90U9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.RunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.RunResult.html",
+          "hash": "r1idMvyNal3hsUmVpuk26w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.SweeperBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.SweeperBase.html",
+          "hash": "Hyn9Yum+/0pjlkYSFq36iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.SweeperOptionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.SweeperOptionBase.html",
+          "hash": "eXrb0tVYMbSPP57ovajCEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.SweeperProbabilityUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.SweeperProbabilityUtils.html",
+          "hash": "uxrx+/PCCiKMfehmwg6kyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.UniformRandomSweeper.Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.UniformRandomSweeper.Option.html",
+          "hash": "DxOeK8zhIydGG6R9Al1z0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.UniformRandomSweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.UniformRandomSweeper.html",
+          "hash": "WF4+MeHsuhKNToJrdfdIBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.Utils.html",
+          "hash": "+FBKsyAYb4bK6g6DO5qs1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.ValueGeneratorOptionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.ValueGeneratorOptionBase.html",
+          "hash": "n8zuRyu77Rv6siyo4iDV1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MLNet.Sweeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MLNet.Sweeper.html",
+          "hash": "0LGzDhk25tRiCLSK99qVzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "+qPlG+iiFATboLJ0LMV5qQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/message.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/message.html",
+          "hash": "s79KwdgBzeL4/cWVZ/lrqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/recommendation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/recommendation.html",
+          "hash": "KnCsA7rfh/V2svofO65EvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "ENfIW2o2n7lBaL7a/2pqzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "hsoTwOtBeVoxgTAXWltaHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "x8fofTPC/FuB7K0PPBA9gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 118,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

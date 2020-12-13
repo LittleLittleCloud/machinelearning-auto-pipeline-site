@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MLNet.AutoPipeline: AutoML for ML.NET </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="MLNet.AutoPipeline: AutoML for ML.NET ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="mlnetautopipeline-automl-for-mlnet"><strong>MLNet.AutoPipeline</strong>: AutoML for <a href="https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet">ML.NET</a></h2>
+
+<p><strong>ML.Net AutoPipeline</strong> is a set of packages build on top of ML.Net that provide AutoML feature. It is aimed to solve the two following problems that vastly exists in Machinelearning:</p>
+<ul>
+<li>Given a ML pipeline, find the best hyper-parameters for its transformers or trainers.</li>
+<li>Given a dataset and a ML task, find the best pipeline for solving this task.</li>
+</ul>
+<p><a href="https://dev.azure.com/xiaoyuz0315/BigMiao/_build/latest?definitionId=3&amp;branchName=master"><img src="https://dev.azure.com/xiaoyuz0315/BigMiao/_apis/build/status/LittleLittleCloud.auto-machinelearning?branchName=master" alt="Build Status"></a> <img src="https://img.shields.io/azure-devops/coverage/xiaoyuz0315/BigMiao/3?color=green" alt="Azure DevOps coverage"> <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a></p>
+<h2 id="try-it-on-binder">Try it on Binder</h2>
+<p><a href="https://mybinder.org/v2/gh/LittleLittleCloud/MLNet-AutoPipeline-Examples/master"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"></a></p>
+<h2 id="quick-start">Quick Start</h2>
+<p>First, add <code>MLNet.AutoPipeline</code> to your project. You can get those packages from our <a href="#Installation">nightly build</a>.</p>
+<pre><code class="lang-xml">&lt;ItemGroup&gt;
+  &lt;PackageReference Include=&quot;MLNet.AutoPipeline&quot; /&gt;
+&lt;/ItemGroup&gt;
+</code></pre>
+<p>Then create a <code>SweepablePipeline</code> using <code>AutoPipelineCatalog</code> API. <code>SweepablePipeline</code> is similar to the concept of <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.ml.data.estimatorchain-1?view=ml-dotnet"><code>EstimatorChain</code></a> in ML.Net. And it will fine-tune hyperparameters by sweeping over a group of pre-defined parameters during training.</p>
+<pre><code class="lang-csharp">var context = new MLContext();
+var sweepablePipeline = context.Transforms.Conversion.MapValueToKey(&quot;species&quot;, &quot;species&quot;)
+                    // here we use Iris dataset as example.
+                    .Append(context.Transforms.Concatenate(&quot;features&quot;, new string[] { &quot;sepal_length&quot;, &quot;sepal_width&quot;, &quot;petal_length&quot;, &quot;petal_width&quot; }))
+                    // create a sweepable LbfgsMaximumEntropy trainer
+                    .Append(context.AutoML().MultiClassification.LbfgsMaximumEntropy(&quot;species&quot;, &quot;features&quot;));
+</code></pre>
+<p>Then create an <code>Experiment</code> to sweep over <code>sweepablePipeline</code> to find the best pipeline and hyperparameter.</p>
+<pre><code class="lang-csharp">var experimentOption = new Experiment.Option()
+{
+    EvaluateFunction = (MLContext context, IDataView data) =&gt;
+                {
+                    return context.MulticlassClassification.Evaluate(data, &quot;iris&quot;).MicroAccuracy;
+                }, // Use Micro Accuracy as evaluate metric.
+};
+
+var experiment = context.AutoML().CreateExperiment(estimatorChain, experimentOption)
+var result = await experiment.TrainAsync(split.TrainSet); // train experiment.
+</code></pre>
+<h2 id="examples">Examples</h2>
+<p>Please visit <a href="https://github.com/LittleLittleCloud/MLNet-AutoPipeline-Examples">MLNet-AutoPipeline-Example</a> for MLNet.AutoPipeline examples.</p>
+<h2 id="installation">Installation</h2>
+<p>This project is still under developing, so no released package is available yet. However, you can get the prereleased version below.</p>
+<table>
+<thead>
+<tr>
+<th><a href="https://dev.azure.com/xiaoyuz0315/BigMiao/_packaging?_a=feed&amp;feed=MLNet-Auto-Pipeline%40Prerelease">auto-pipeline</a></th>
+<th>Pre-released</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MLNet.AutoPipeline</td>
+<td><a href="https://dev.azure.com/xiaoyuz0315/BigMiao/_packaging?_a=package&amp;feed=360eccf9-f423-4798-85f2-57d25eecbd49%40c1004200-b0de-4d5b-8208-7464f565e1a8&amp;package=f14318be-ef42-4f8a-8930-76a801345968&amp;preferRelease=true"><img src="https://feeds.dev.azure.com/xiaoyuz0315/1bf31d68-811d-4872-ae8b-cdd289c934f1/_apis/public/Packaging/Feeds/360eccf9-f423-4798-85f2-57d25eecbd49%40c1004200-b0de-4d5b-8208-7464f565e1a8/Packages/f14318be-ef42-4f8a-8930-76a801345968/Badge" alt="MLNet.AutoPipeline package in MLNet-Auto-Pipeline@Prerelease feed in Azure Artifacts"></a></td>
+</tr>
+<tr>
+<td>MLNet.Sweeper</td>
+<td><a href="https://dev.azure.com/xiaoyuz0315/BigMiao/_packaging?_a=package&amp;feed=360eccf9-f423-4798-85f2-57d25eecbd49%40c1004200-b0de-4d5b-8208-7464f565e1a8&amp;package=681d6c5b-20bd-4794-bbec-8fc8a54c6ea6&amp;preferRelease=true"><img src="https://feeds.dev.azure.com/xiaoyuz0315/1bf31d68-811d-4872-ae8b-cdd289c934f1/_apis/public/Packaging/Feeds/360eccf9-f423-4798-85f2-57d25eecbd49%40c1004200-b0de-4d5b-8208-7464f565e1a8/Packages/681d6c5b-20bd-4794-bbec-8fc8a54c6ea6/Badge" alt="MLNet.Sweeper package in MLNet-Auto-Pipeline@Prerelease feed in Azure Artifacts"></a></td>
+</tr>
+<tr>
+<td>MLNet.Expert</td>
+<td><a href="https://dev.azure.com/xiaoyuz0315/BigMiao/_packaging?_a=package&amp;feed=360eccf9-f423-4798-85f2-57d25eecbd49&amp;package=7c3ea9b1-81eb-4ea6-8c9f-35fcbd890f45&amp;preferRelease=true"><img src="https://feeds.dev.azure.com/xiaoyuz0315/1bf31d68-811d-4872-ae8b-cdd289c934f1/_apis/public/Packaging/Feeds/360eccf9-f423-4798-85f2-57d25eecbd49/Packages/7c3ea9b1-81eb-4ea6-8c9f-35fcbd890f45/Badge" alt="MLNet.Expert package in MLNet-Auto-Pipeline feed in Azure Artifacts"></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="contributing">Contributing</h2>
+<p>We welcome contributions! Please see our <a href="CONTRIBUTING.md">contribution guide</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/LittleLittleCloud/auto-machinelearning/blob/merge/site/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
